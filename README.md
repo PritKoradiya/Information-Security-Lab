@@ -100,6 +100,28 @@ HOLELWRDLO
 * Pattern generation
 * Data rearrangement
 
+## 5. Vigenere Cipher
+
+**File:** `Vigenere_Cipher.c`
+
+The Vigenere Cipher is a polyalphabetic substitution cipher. It uses a keyword to encrypt and decrypt the plaintext. Each character of the plaintext is shifted according to the corresponding character of the key.
+
+**Example:**
+
+Plaintext: HELLO
+
+Key: KEY
+
+Ciphertext: RIJVS
+
+**Concepts Covered**
+
+- Encryption
+- Decryption
+- Polyalphabetic substitution
+- Keyword-based cipher
+- Modular arithmetic
+
 ---
 
 ## Technologies Used
@@ -153,6 +175,7 @@ Information-Security-Lab/
 │
 ├── Ceaser_cipher.c
 ├── monoalphabetic_cipher.c
+├── Vigenere_Cipher.c
 ├── Playfair_Cipher.c
 ├── Rail_Fense_Cipher.c
 └── README.md
